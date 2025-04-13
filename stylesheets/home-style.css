@@ -24,7 +24,7 @@
     color: #F2613F;
   }
   .hero-section{
-    background-image: url('images/demo-one.jpg');
+    background-image: url('../images/demo-one.jpg');
     background-position: center;
     background-size: cover;
     background-color:#1e1e1eab;
@@ -93,7 +93,7 @@
   }
   .service-Section{
     background-color: #1e1e1edb;
-    background-image: url('images/demo-two.jpg');
+    background-image: url('../images/demo-two.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
