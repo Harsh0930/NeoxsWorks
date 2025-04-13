@@ -202,15 +202,13 @@
   .social-links{
     color: #ffff;
     font-size: 20px;
-    border: 2px solid #979797;
-    padding: 7px;
-    border-radius: 100%;
+    /* border: 2px solid #979797; */
+    /* padding: 7px; */
+    /* border-radius: 100%; */
   }
   .social-links:hover{
-    background-color: #F2613F;
-    color: #ffff ;
+    color: #F2613F ;
     transition: .2s ease-in-out;
-    border-color: #F2613F;
   }
 
   /* CUSTOM CSS  */
@@ -266,6 +264,12 @@
     .video-div{
       border: none;
     }
+    .hero-headline,.about-headline,.our-name,.service-headline,.service-healine-two,.service-name,.sociallinks-headlines,.quicklinks-headlines,.conatctus-headlines{
+      font-size: 24px;
+    }
+    .hero-subtext,.cta-buttons,.nav-link,.about-subtext,.card-text,.service-subtext,.social-links,.portfolio-subtext{
+      font-size: 15px;
+    }
   }
   @media only screen and (min-width:321px) and (max-width:768px){
     .navbar-nav{
@@ -273,6 +277,15 @@
     }
     .about-custom-card{
       height: fit-content;
+    }
+    .video-div{
+      border: none;
+    }
+    .hero-headline,.about-headline,.our-name,.service-headline,.service-name,.sociallinks-headlines,.conatctus-headlines{
+      font-size: 24px;
+    }
+    .hero-subtext,.cta-buttons,.nav-link,.about-subtext,.card-text,.service-subtext,.social-links{
+      font-size: 15px;
     }
   
   }
