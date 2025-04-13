@@ -70,6 +70,7 @@
     background-color: transparent;
     border: 1px solid #ffff;
     border-radius: 5px;
+    min-height: 500px;
     height: 500px;
   }
   .about-custom-card:hover{
@@ -182,12 +183,12 @@
   .footer-section{
     background-color: #1E1E1E;
   }
-  .quicklinks-headlines,.sociallinks-headlines{
+  .quicklinks-headlines,.sociallinks-headlines,.conatctus-headlines{
     font-family: Syne;
     font-weight: bold;
     color: #ffff;
   }
-  .quick-links{
+  .quick-links,.contactus-links{
     font-family: Poppins;
     color: #ffff;
     text-decoration: none;
@@ -248,3 +249,38 @@
     pointer-events: none;
     transition: top 0.05s, left 0.05s;
   } */
+
+
+  /* Media Query */
+  @media only screen and (max-width:320px)  {
+    .navbar-nav{
+      display: contents;
+    }
+    .about-custom-card{
+      height: fit-content;
+    }
+    .service-Section{
+      display: grid;
+      justify-content: center;
+    }
+    .video-div{
+      border: none;
+    }
+  }
+  @media only screen and (min-width:321px) and (max-width:768px){
+    .navbar-nav{
+      display: contents;
+    }
+    .about-custom-card{
+      height: fit-content;
+    }
+  
+  }
+    @media only screen and (min-width:769px){
+      .navbar-nav{
+        display: contents;
+      }
+      .about-custom-card{
+        height: 500px;
+      }
+    }
