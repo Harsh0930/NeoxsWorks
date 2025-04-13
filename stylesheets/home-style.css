@@ -264,7 +264,7 @@
     .video-div{
       border: none;
     }
-    .hero-headline,.about-headline,.our-name,.service-headline,.service-healine-two,.service-name,.sociallinks-headlines,.quicklinks-headlines,.conatctus-headlines{
+    .hero-headline,.about-headline,.our-name,.service-headline,.service-healine-two,.service-name,.sociallinks-headlines,.quicklinks-headlines{
       font-size: 24px;
     }
     .hero-subtext,.cta-buttons,.nav-link,.about-subtext,.card-text,.service-subtext,.social-links,.portfolio-subtext{
@@ -284,7 +284,7 @@
     .hero-headline,.about-headline,.our-name,.service-headline,.service-name,.sociallinks-headlines,.conatctus-headlines{
       font-size: 24px;
     }
-    .hero-subtext,.cta-buttons,.nav-link,.about-subtext,.card-text,.service-subtext,.social-links{
+    .hero-subtext,.cta-buttons,.nav-link,.about-subtext,.card-text,.service-subtext{
       font-size: 15px;
     }
   
