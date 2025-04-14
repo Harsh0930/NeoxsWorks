@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400,500,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* @font-face {
+    font-family: chillax;
+    src: url(/fonts/Chillax-Semibold.otf);
+  } */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+.nav-link {
+  font-family: Poppins;
+  font-weight: 400;
+  color: #ffff;
+}
+.nav-link:hover {
+  text-decoration: underline;
+  color: #F2613F;
+}
+span{
+  color: #F2613F;
+}
+.hero-section {
+  background-image: url('../images/demo-one.jpg');
+  background-position: center;
+  background-size: cover;
+  background-color: #1e1e1ec2;
+  background-attachment: scroll;
+  min-height: 400px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+}
+.hero-row {
+  padding: 10% 4% 10% 4%;
+}
+.hero-headline,
+.about-headline {
+  font-family: Syne;
+  font-weight: bold;
+  /* font-size: 3em; */
+  color: #ffff;
+}
+.hero-subtext {
+  font-family: Poppins;
+  color: #F2613F;
+  font-weight: 400;
+  font-size: 16px;
+}
+.portfolio-section{
+    background-color: #1E1E1E;
+    overflow: hidden;
+}
+.portfolio-img{
+    height: 400px;
+    border-radius: 7px;
+}
+.portfolio-titles{
+    font-family: Syne;
+    color: #ffff;
+    text-transform: lowercase;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.portfolio-img:hover{
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+    box-shadow: #F2613F 0px 5px, #f2603fa1 0px 10px,#f2603f5f 0px 15px, #f2603f18 0px 20px, #f2603f0b 0px 25px;
+}
+.footer-section {
+    background-color: #1E1E1E;
+  }
+  .quicklinks-headlines,
+  .sociallinks-headlines,
+  .contactus-headlines {
+    font-family: Syne;
+    font-weight: bold;
+    color: #F2613F;
+  }
+  .quick-links,
+  .contactus-links {
+    font-family: Poppins;
+    color: #ffff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .quick-links:hover,.contactus-links:hover {
+    color: #F2613F;
+    text-decoration: underline;
+    transition: .2s ease-in-out;
+  }
+  .social-links {
+    color: #ffff;
+    font-size: 20px;
+    /* border: 2px solid #979797; */
+    /* padding: 7px; */
+    /* border-radius: 100%; */
+  }
+  .social-links:hover {
+    color: #F2613F;
+    transition: .2s ease-in-out;
+  }
+  .copyright-section{
+    background-color: #F2613F;
+  }
+  .copyright-text{
+    font-family: Poppins;
+    color: #ffff;
+    font-size: 13px;
+  }
+  .copyright-link{
+    text-decoration: none;
+    color: #ffff;
+  }
+  .copyright-link:hover{
+    /* color: #F2613F; */
+    text-decoration: underline;
+    transition: .2s ease-in-out;
+  }
+
+  /* Media Query */
+@media only screen and (max-width:320px) {
+    .navbar-nav {
+      display: contents;
+    }
+  
+    .about-custom-card {
+      height: fit-content;
+    }
+  
+    .service-Section {
+      display: grid;
+      justify-content: center;
+    }
+  
+    .video-col {
+      border: none;
+    }
+  
+    .hero-headline,
+    .about-headline,
+    .our-name,
+    .service-headline,
+    .sociallinks-headlines,
+    .quicklinks-headlines {
+      font-size: 24px;
+    }
+    .service-name{
+      font-size: 16px;
+    }
+  .service-headline-two{
+    font-size: 16px;
+  }
+    .hero-subtext,
+    .cta-buttons,
+    .nav-link,
+    .about-subtext,
+    .card-text,
+    .service-subtext,
+    .social-links,
+    .portfolio-subtext {
+      font-size: 15px;
+    }
+  }
+  
+  @media only screen and (min-width:321px) and (max-width:768px) {
+    .navbar-nav {
+      display: contents;
+    }
+  
+    .about-custom-card {
+      height: fit-content;
+    }
+    .service-headline-two{
+      font-size: 20px;
+    }
+    .hero-headline,
+    .about-headline,
+    .our-name,
+    .service-headline,
+    .sociallinks-headlines,
+    .conatctus-headlines {
+      font-size: 24px;
+    }
+    .service-name{
+      font-size: 16px;
+    }
+    .hero-subtext,
+    .cta-buttons,
+    .nav-link,
+    .about-subtext,
+    .card-text,
+    .service-subtext {
+      font-size: 15px;
+    }
+    .video-col{
+      border: 0;
+    }
+  
+  }
+  
+  @media only screen and (min-width:769px) {
+    .navbar-nav {
+      display: contents;
+    }
+  
+    .about-custom-card {
+      height: 500px;
+    }
+    .service-headline-two{
+      font-size: 2.2em;
+    }
+    .video-col {
+      /* background-color: #1E1E1E; */
+      border: 3px solid #F2613F;
+      border-radius: 5px;
+    }
+  }
