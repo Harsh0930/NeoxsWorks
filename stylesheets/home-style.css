@@ -296,13 +296,16 @@ span{
   .about-headline,
   .our-name,
   .service-headline,
-  .service-healine-two,
-  .service-name,
   .sociallinks-headlines,
   .quicklinks-headlines {
     font-size: 24px;
   }
-
+  .service-name{
+    font-size: 16px;
+  }
+.service-headline-two{
+  font-size: 16px;
+}
   .hero-subtext,
   .cta-buttons,
   .nav-link,
@@ -327,17 +330,20 @@ span{
   .video-col {
     border: none;
   }
-
+  .service-headline-two{
+    font-size: 20px;
+  }
   .hero-headline,
   .about-headline,
   .our-name,
   .service-headline,
-  .service-name,
   .sociallinks-headlines,
   .conatctus-headlines {
     font-size: 24px;
   }
-
+  .service-name{
+    font-size: 16px;
+  }
   .hero-subtext,
   .cta-buttons,
   .nav-link,
@@ -356,5 +362,8 @@ span{
 
   .about-custom-card {
     height: 500px;
+  }
+  .service-headline-two{
+    font-size: 2.2em;
   }
 }
