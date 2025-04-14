@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400,500,600,700,800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 /* @font-face {
     font-family: chillax;
     src: url(/fonts/Chillax-Semibold.otf);
@@ -11,12 +11,12 @@
   box-sizing: border-box;
 }
 body {
-  line-height: 20px;
+  line-height: 30px;
   letter-spacing: 1px;
 }
 .nav-link {
   font-family: Poppins;
-  font-weight: 300;
+  font-weight: 400;
   color: #ffff;
 }
 .nav-link:hover {
