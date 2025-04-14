@@ -23,6 +23,9 @@ body {
   text-decoration: underline;
   color: #F2613F;
 }
+span{
+  color: #F2613F;
+}
 .hero-section {
   background-image: url('../images/demo-one.jpg');
   background-position: center;
@@ -193,7 +196,7 @@ body {
 .contactus-headlines {
   font-family: Syne;
   font-weight: bold;
-  color: #ffff;
+  color: #F2613F;
 }
 .quick-links,
 .contactus-links {
@@ -202,7 +205,7 @@ body {
   text-decoration: none;
   font-size: 16px;
 }
-.quick-links:hover {
+.quick-links:hover,.contactus-links:hover {
   color: #F2613F;
   text-decoration: underline;
   transition: .2s ease-in-out;
@@ -216,6 +219,23 @@ body {
 }
 .social-links:hover {
   color: #F2613F;
+  transition: .2s ease-in-out;
+}
+.copyright-section{
+  background-color: #F2613F;
+}
+.copyright-text{
+  font-family: Poppins;
+  color: #ffff;
+  font-size: 13px;
+}
+.copyright-link{
+  text-decoration: none;
+  color: #ffff;
+}
+.copyright-link:hover{
+  /* color: #F2613F; */
+  text-decoration: underline;
   transition: .2s ease-in-out;
 }
 /* CUSTOM CSS  */
